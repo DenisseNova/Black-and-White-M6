@@ -5,22 +5,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="http://localhost:3000/estilos">
-  
+  <link rel="stylesheet" href="style.css">  
 </head>
 <body>
   <div class="container tex-center">
     <h1>Imagen URL:</h1>
 
-    <form action="/action_page.php">
-      <input type="text" id="fname" name="fname"><br><br>
-      <input type="subir imagen al servidor" value="Submit">
+    <form id="frmBusqueda" action="new-image" method="GET">
+      <input type="url" id="fname" name="fname" required><br><br>
+      <input type="submit" value="subir imagen al servidor">
     </form>
   </div>
-
-
-
-  
 </body>
 </html>

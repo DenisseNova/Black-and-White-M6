@@ -1,0 +1,20 @@
+{
+  "name": "desafio-cuatro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "jimp": "^0.16.1",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "dev": "nodemon script.js acceso --key=123",
+    "start": "node script.js acceso --key=123"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
