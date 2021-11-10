@@ -15,6 +15,6 @@
     "start": "node script.js acceso --key=123"
   },
   "keywords": [],
-  "author": "",
+  "author": "Denisse",
   "license": "ISC"
 }
